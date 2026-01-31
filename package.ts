@@ -1,7 +1,7 @@
 import {
 	ConstellationSystemFilesystemInterface,
 	LatestFileIndex
-} from "./definitions.js";
+} from "./definitions.d";
 import { getMimeType } from "./mimes.js";
 
 function removeLeadingSlash(text: string): string {

@@ -3,7 +3,7 @@ import {
 	ConstellationFileIndexv2,
 	ConstellationSystemFilesystemInterface,
 	FileIndex
-} from "./definitions.js";
+} from "./definitions.d";
 
 function safeResolve(
 	fs: ConstellationSystemFilesystemInterface,

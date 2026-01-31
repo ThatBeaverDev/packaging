@@ -1,4 +1,4 @@
-import { FileIndexDiff, LatestFileIndex } from "./definitions.js";
+import { FileIndexDiff, LatestFileIndex } from "./definitions.d";
 
 export function diffIdxFiles(
 	oldIndex: LatestFileIndex,

@@ -2,7 +2,7 @@ import {
 	ConstellationFileIndexv1,
 	ConstellationFileIndexv2,
 	FileIndex
-} from "./definitions";
+} from "./definitions.d";
 
 export function indexV1ToIndexV2(
 	oldIndex: ConstellationFileIndexv1
